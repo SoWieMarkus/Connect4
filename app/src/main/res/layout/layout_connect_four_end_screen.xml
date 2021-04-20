@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/activity_fiar_end_screen_text"
+            android:id="@+id/activity_connect_4_end_screen_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
@@ -31,7 +31,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/activity_fiar_end_screen_again"
+                android:id="@+id/activity_connect_4_end_screen_again"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/activity_fiar_end_screen_back"
+                android:id="@+id/activity_connect_4_end_screen_back"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package markus.wieland.fourinarow;
+package markus.wieland.connect4;
 
 import java.util.List;
 
@@ -8,11 +8,11 @@ import markus.wieland.games.ai.pattern.PatternMatchingLine;
 import markus.wieland.games.game.Difficulty;
 import markus.wieland.games.game.GameBoardField;
 
-public class FourInARowAIMove extends GridGameAIMove {
+public class ConnectFourAIMove extends GridGameAIMove {
 
     private final int opponent;
 
-    public FourInARowAIMove(Difficulty difficulty, int player, int opponent, int x, int y, int[][] grid) {
+    public ConnectFourAIMove(Difficulty difficulty, int player, int opponent, int x, int y, int[][] grid) {
         super(difficulty, player, x, y, grid);
         this.opponent = opponent;
     }

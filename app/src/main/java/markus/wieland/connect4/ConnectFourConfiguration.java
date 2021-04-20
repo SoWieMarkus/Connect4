@@ -1,12 +1,12 @@
-package markus.wieland.fourinarow;
+package markus.wieland.connect4;
 
 import markus.wieland.games.game.GameConfiguration;
 
-public class FourInARowConfiguration implements GameConfiguration {
+public class ConnectFourConfiguration implements GameConfiguration {
 
     private final boolean singlePlayer;
 
-    public FourInARowConfiguration(boolean singlePlayer) {
+    public ConnectFourConfiguration(boolean singlePlayer) {
         this.singlePlayer = singlePlayer;
     }
 

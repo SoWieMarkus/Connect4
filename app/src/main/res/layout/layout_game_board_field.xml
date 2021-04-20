@@ -26,6 +26,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/cell_frame" />
+        app:srcCompat="@drawable/frame" />
 
 </merge>

@@ -1,4 +1,4 @@
-package markus.wieland.fourinarow;
+package markus.wieland.connect4;
 
 import android.os.Bundle;
 import android.view.WindowManager;
@@ -11,7 +11,7 @@ import markus.wieland.games.persistence.GameSaver;
 import markus.wieland.games.screen.view.EndScreenView;
 import markus.wieland.games.screen.view.StartScreenView;
 
-public class MainActivity extends GameActivity<FourInARowConfiguration, Highscore, FourInARowGameState, FourInARowGameResult, FourInARow> {
+public class MainActivity extends GameActivity<ConnectFourConfiguration, Highscore, ConnectFourGameState, ConnectFourGameResult, ConnectConnectFour> {
 
     public MainActivity() {
         super(R.layout.activity_main);
@@ -34,18 +34,18 @@ public class MainActivity extends GameActivity<FourInARowConfiguration, Highscor
     }
 
     @Override
-    protected GameGenerator<FourInARowGameState> initializeGenerator(GameConfiguration configuration) {
-        return new FourInARowGenerator(configuration, this);
+    protected GameGenerator<ConnectFourGameState> initializeGenerator(GameConfiguration configuration) {
+        return new ConnectFourGenerator(configuration, this);
     }
 
     @Override
-    protected GameSaver<FourInARowGameState, Highscore> initializeGameSaver() {
+    protected GameSaver<ConnectFourGameState, Highscore> initializeGameSaver() {
         return null;
     }
 
     @Override
-    protected void initializeGame(FourInARowGameState fourInARowGameStateFields) {
-        game = new FourInARow(this, fourInARowGameStateFields, findViewById(R.id.four_in_a_row_game_board));
+    protected void initializeGame(ConnectFourGameState connectFourGameStateFields) {
+        game = new ConnectConnectFour(this, connectFourGameStateFields, findViewById(R.id.four_in_a_row_game_board));
         game.start();
     }
 }

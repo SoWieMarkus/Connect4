@@ -7,7 +7,7 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
-    <markus.wieland.fourinarow.FourInARowGameBoardView
+    <markus.wieland.connect4.ConnectFourGameBoardView
         android:id="@+id/four_in_a_row_game_board"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -17,31 +17,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_for_game_board="@layout/layout_game_board">
 
-    </markus.wieland.fourinarow.FourInARowGameBoardView>
+    </markus.wieland.connect4.ConnectFourGameBoardView>
 
-    <markus.wieland.fourinarow.FourInARowStartScreen
+    <markus.wieland.connect4.ConnectFourStartScreen
         android:id="@+id/four_in_a_row_start_screen"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_background="@layout/layout_four_in_a_row_start_screen"
+        app:layout_background="@layout/layout_connect_four_start_screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-    </markus.wieland.fourinarow.FourInARowStartScreen>
+    </markus.wieland.connect4.ConnectFourStartScreen>
 
-    <markus.wieland.fourinarow.FourInARowEndScreen
+    <markus.wieland.connect4.ConnectFourEndScreen
         android:id="@+id/four_in_a_row_end_screen"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_background="@layout/layout_four_in_a_row_end_screen"
+        app:layout_background="@layout/layout_connect_four_end_screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-    </markus.wieland.fourinarow.FourInARowEndScreen>
+    </markus.wieland.connect4.ConnectFourEndScreen>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

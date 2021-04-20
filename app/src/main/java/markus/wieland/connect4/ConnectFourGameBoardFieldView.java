@@ -1,4 +1,4 @@
-package markus.wieland.fourinarow;
+package markus.wieland.connect4;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -17,7 +17,7 @@ import markus.wieland.games.game.GameBoardField;
 import markus.wieland.games.game.grid.GridGameBoardFieldView;
 import markus.wieland.games.game.view.GameStateField;
 
-public class FourInARowGameBoardFieldView extends androidx.appcompat.widget.AppCompatImageView implements GridGameBoardFieldView, View.OnClickListener {
+public class ConnectFourGameBoardFieldView extends androidx.appcompat.widget.AppCompatImageView implements GridGameBoardFieldView, View.OnClickListener {
 
     public static final int PLAYER_1 = 0;
     public static final int PLAYER_2 = 1;
@@ -25,15 +25,15 @@ public class FourInARowGameBoardFieldView extends androidx.appcompat.widget.AppC
     private Coordinate coordinate;
     private int value;
 
-    public FourInARowGameBoardFieldView(@NonNull Context context) {
+    public ConnectFourGameBoardFieldView(@NonNull Context context) {
         this(context, null);
     }
 
-    public FourInARowGameBoardFieldView(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public ConnectFourGameBoardFieldView(@NonNull Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public FourInARowGameBoardFieldView(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ConnectFourGameBoardFieldView(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
@@ -45,9 +45,9 @@ public class FourInARowGameBoardFieldView extends androidx.appcompat.widget.AppC
     private Drawable getDrawable(int value) {
         switch (value) {
             case PLAYER_1:
-                return ContextCompat.getDrawable(getContext(), R.drawable.player_1);
+                return ContextCompat.getDrawable(getContext(), R.drawable.red_disc);
             case PLAYER_2:
-                return ContextCompat.getDrawable(getContext(), R.drawable.player_2);
+                return ContextCompat.getDrawable(getContext(), R.drawable.yellow_disc);
             default:
                 return null;
         }
@@ -76,14 +76,14 @@ public class FourInARowGameBoardFieldView extends androidx.appcompat.widget.AppC
 
     @Override
     public void load(GameStateField stateField) {
-        FourInARowGameStateField fourInARowGameStateField = (FourInARowGameStateField) stateField;
-        this.coordinate = fourInARowGameStateField.getCoordinate();
-        this.value = fourInARowGameStateField.getValue();
+        ConnectFourGameStateField connectFourGameStateField = (ConnectFourGameStateField) stateField;
+        this.coordinate = connectFourGameStateField.getCoordinate();
+        this.value = connectFourGameStateField.getValue();
     }
 
     @Override
-    public FourInARowGameStateField getGameStateField() {
-        return new FourInARowGameStateField(getCoordinate(), value);
+    public ConnectFourGameStateField getGameStateField() {
+        return new ConnectFourGameStateField(getCoordinate(), value);
     }
 
     @Override

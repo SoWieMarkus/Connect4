@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">\"4 wins\" - GranaDy</string>
-    <string name="fiar_player_1">GranaDy</string>
+    <string name="app_name">Vier gewinnt!</string>
+    <string name="fiar_player_1">Spieler 1</string>
     <string name="fiar_player_2">Spieler 2</string>
     <string name="fiar_multiplayer">Mehrspieler</string>
     <string name="fiar_singleplayer">Einzelspieler</string>

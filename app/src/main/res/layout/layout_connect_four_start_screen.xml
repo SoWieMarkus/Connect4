@@ -25,7 +25,7 @@
             android:textSize="50sp" />
 
         <Button
-            android:id="@+id/activity_fiar_start_single_player"
+            android:id="@+id/activity_connect_4_start_single_player"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fiar_singleplayer" />
@@ -70,7 +70,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/activity_fiar_start_screen_multiplayer"
+            android:id="@+id/activity_connect_4_start_screen_multiplayer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fiar_multiplayer" />

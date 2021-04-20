@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
         app:layout_constraintTop_toTopOf="@+id/linearLayout">
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_00"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -50,7 +50,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_04"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -61,7 +61,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_01"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -72,7 +72,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_02"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -83,7 +83,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_03"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -94,7 +94,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_05"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -105,7 +105,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_06"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -116,7 +116,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_10"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -127,7 +127,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_00"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_11"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -138,7 +138,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_01"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_15"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -149,7 +149,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_05"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_16"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -161,7 +161,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_06"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_12"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -172,7 +172,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_02"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_13"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -183,7 +183,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_03"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_14"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -194,7 +194,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_04"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_20"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -205,7 +205,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_10"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_21"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -216,7 +216,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_11"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_22"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -227,7 +227,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_12"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_23"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -238,7 +238,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_13"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_25"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -249,7 +249,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_15"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_26"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -260,7 +260,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_16"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_24"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -271,7 +271,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_14"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_30"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -282,7 +282,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_20"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_31"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -293,7 +293,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_21"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_35"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -304,7 +304,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_25"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_33"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -315,7 +315,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_23"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_36"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -326,7 +326,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_26"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_32"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -337,7 +337,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_22"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_34"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -348,7 +348,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_24"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_40"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -359,7 +359,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_30"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_41"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -370,7 +370,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_31"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_42"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -382,7 +382,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_32"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_43"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -393,7 +393,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_33"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_44"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -404,7 +404,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_34"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_45"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -415,7 +415,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_35"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_46"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -426,7 +426,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_36"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_50"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -437,7 +437,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_40"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_52"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -448,7 +448,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_42"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_51"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -459,7 +459,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_41"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_53"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -470,7 +470,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_43"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_54"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -481,7 +481,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_44"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_55"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -492,7 +492,7 @@
             app:layout_constraintTop_toBottomOf="@+id/fiar_45"
             app:srcCompat="@null" />
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+        <markus.wieland.connect4.ConnectFourGameBoardFieldView
             android:id="@+id/fiar_56"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -578,6 +578,46 @@
         app:layout_constraintStart_toStartOf="@+id/linearLayout2">
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/red_disc" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yellow_disc" />
+
+    <ProgressBar
+        android:id="@+id/layout_game_player_1_progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ProgressBar
+        android:id="@+id/layout_game_player_2_progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

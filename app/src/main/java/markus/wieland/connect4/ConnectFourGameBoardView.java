@@ -1,7 +1,8 @@
-package markus.wieland.fourinarow;
+package markus.wieland.connect4;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.widget.ProgressBar;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,20 +15,23 @@ import markus.wieland.games.game.GameResult;
 import markus.wieland.games.game.grid.GridGameBoardView;
 import markus.wieland.games.persistence.GameState;
 
-public class FourInARowGameBoardView extends GridGameBoardView<FourInARowGameBoardFieldView> {
+public class ConnectFourGameBoardView extends GridGameBoardView<ConnectFourGameBoardFieldView> {
 
     public static final int SIZE_X = 7;
     public static final int SIZE_Y = 6;
 
-    public FourInARowGameBoardView(@NonNull Context context) {
+    private ProgressBar progressBarPlayer1;
+    private ProgressBar progressBarPlayer2;
+
+    public ConnectFourGameBoardView(@NonNull Context context) {
         super(context);
     }
 
-    public FourInARowGameBoardView(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public ConnectFourGameBoardView(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public FourInARowGameBoardView(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ConnectFourGameBoardView(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
@@ -41,8 +45,8 @@ public class FourInARowGameBoardView extends GridGameBoardView<FourInARowGameBoa
         return SIZE_Y;
     }
 
-    private FourInARowGameBoardInteractionListener getGameBoardInteractionListener() {
-        return (FourInARowGameBoardInteractionListener) gameBoardInteractionListener;
+    private ConnectFourGameBoardInteractionListener getGameBoardInteractionListener() {
+        return (ConnectFourGameBoardInteractionListener) gameBoardInteractionListener;
     }
 
     @Override
@@ -142,7 +146,7 @@ public class FourInARowGameBoardView extends GridGameBoardView<FourInARowGameBoa
     }
 
     public void clear() {
-        for (FourInARowGameBoardFieldView view : matrix) {
+        for (ConnectFourGameBoardFieldView view : matrix) {
             view.highlight(-1);
         }
     }
@@ -152,7 +156,7 @@ public class FourInARowGameBoardView extends GridGameBoardView<FourInARowGameBoa
         while (!get(new Coordinate(column, y)).isEmpty()) {
             y--;
         }
-        FourInARowGameBoardFieldView field = get(new Coordinate(column, y));
+        ConnectFourGameBoardFieldView field = get(new Coordinate(column, y));
         field.setValue(player);
         field.update();
     }
@@ -164,12 +168,22 @@ public class FourInARowGameBoardView extends GridGameBoardView<FourInARowGameBoa
         line.add(new Coordinate(x, y));
     }
 
-    public FourInARowGameBoardFieldView get(Coordinate coordinate) {
+    public ConnectFourGameBoardFieldView get(Coordinate coordinate) {
         return matrix.get(coordinate);
+    }
+
+    public void switchPlayer(int currentPlayer) {
+        progressBarPlayer1.setVisibility(currentPlayer == ConnectFourGameBoardFieldView.PLAYER_1 ? VISIBLE : GONE);
+        progressBarPlayer2.setVisibility(currentPlayer == ConnectFourGameBoardFieldView.PLAYER_2 ? VISIBLE : GONE);
     }
 
     @Override
     protected void initializeFields() {
+
+        progressBarPlayer1 = findViewById(R.id.layout_game_player_1_progress_bar);
+        progressBarPlayer2 = findViewById(R.id.layout_game_player_2_progress_bar);
+
+
         for (int x = 0; x < SIZE_X; x++) {
             int finalX = x;
             findViewById(getResources()
@@ -185,15 +199,15 @@ public class FourInARowGameBoardView extends GridGameBoardView<FourInARowGameBoa
     }
 
     public boolean isCompleted() {
-        for (FourInARowGameBoardFieldView view : matrix) {
+        for (ConnectFourGameBoardFieldView view : matrix) {
             if (view.isEmpty()) return false;
         }
         return true;
     }
 
-    public SerializableMatrix<FourInARowGameStateField> getGameState() {
-        SerializableMatrix<FourInARowGameStateField> fields = new SerializableMatrix<>(SIZE_X, SIZE_Y);
-        for (FourInARowGameBoardFieldView view : matrix) {
+    public SerializableMatrix<ConnectFourGameStateField> getGameState() {
+        SerializableMatrix<ConnectFourGameStateField> fields = new SerializableMatrix<>(SIZE_X, SIZE_Y);
+        for (ConnectFourGameBoardFieldView view : matrix) {
             fields.set(view.getCoordinate(), view.getGameStateField());
         }
         return fields;
@@ -208,8 +222,8 @@ public class FourInARowGameBoardView extends GridGameBoardView<FourInARowGameBoa
             }
         }
 
-        FourInARowGameState fourInARowGameState = (FourInARowGameState) gameState;
-        for (FourInARowGameStateField field : fourInARowGameState) {
+        ConnectFourGameState connectFourGameState = (ConnectFourGameState) gameState;
+        for (ConnectFourGameStateField field : connectFourGameState) {
 
             matrix.get(field.getCoordinate()).load(field);
         }

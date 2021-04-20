@@ -1,4 +1,4 @@
-package markus.wieland.fourinarow;
+package markus.wieland.connect4;
 
 import android.content.Context;
 
