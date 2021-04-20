@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="10dp"
+        android:layout_height="0dp"
+        android:background="@color/darkBackground"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="10dp"
+        android:layout_height="0dp"
+        android:background="@color/darkBackground"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout">
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_00"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_10"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_04"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_14"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_05"
+            app:layout_constraintStart_toEndOf="@+id/fiar_03"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_01"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_11"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_02"
+            app:layout_constraintStart_toEndOf="@+id/fiar_00"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_02"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_12"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_03"
+            app:layout_constraintStart_toEndOf="@+id/fiar_01"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_03"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_13"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_04"
+            app:layout_constraintStart_toEndOf="@+id/fiar_02"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_05"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_15"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_06"
+            app:layout_constraintStart_toEndOf="@+id/fiar_04"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_06"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_05"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_20"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_00"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_21"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_12"
+            app:layout_constraintStart_toEndOf="@+id/fiar_10"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_01"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_25"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_16"
+            app:layout_constraintStart_toEndOf="@+id/fiar_14"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_05"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="1dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_26"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_15"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_06"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_22"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_13"
+            app:layout_constraintStart_toEndOf="@+id/fiar_11"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_02"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_23"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_14"
+            app:layout_constraintStart_toEndOf="@+id/fiar_12"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_03"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_24"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_15"
+            app:layout_constraintStart_toEndOf="@+id/fiar_13"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_04"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_30"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_10"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_31"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_22"
+            app:layout_constraintStart_toEndOf="@+id/fiar_20"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_11"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_32"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_23"
+            app:layout_constraintStart_toEndOf="@+id/fiar_21"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_12"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_33"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_24"
+            app:layout_constraintStart_toEndOf="@+id/fiar_22"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_13"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_35"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_26"
+            app:layout_constraintStart_toEndOf="@+id/fiar_24"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_15"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_36"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_25"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_16"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_34"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_25"
+            app:layout_constraintStart_toEndOf="@+id/fiar_23"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_14"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_30"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_40"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_31"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_20"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_41"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_32"
+            app:layout_constraintStart_toEndOf="@+id/fiar_30"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_21"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_45"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_36"
+            app:layout_constraintStart_toEndOf="@+id/fiar_34"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_25"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_43"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_34"
+            app:layout_constraintStart_toEndOf="@+id/fiar_32"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_23"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_46"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_35"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_26"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_42"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_33"
+            app:layout_constraintStart_toEndOf="@+id/fiar_31"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_22"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_44"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_35"
+            app:layout_constraintStart_toEndOf="@+id/fiar_33"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_24"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_40"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_50"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_41"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_30"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_51"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_42"
+            app:layout_constraintStart_toEndOf="@+id/fiar_40"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_31"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="1dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_52"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_43"
+            app:layout_constraintStart_toEndOf="@+id/fiar_41"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_32"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_53"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_44"
+            app:layout_constraintStart_toEndOf="@+id/fiar_42"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_33"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_54"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_45"
+            app:layout_constraintStart_toEndOf="@+id/fiar_43"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_34"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_55"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_46"
+            app:layout_constraintStart_toEndOf="@+id/fiar_44"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_35"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_56"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_45"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_36"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_50"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_40"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_53"
+            app:layout_constraintStart_toEndOf="@+id/fiar_51"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_42"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_52"
+            app:layout_constraintStart_toEndOf="@+id/fiar_50"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_41"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_54"
+            app:layout_constraintStart_toEndOf="@+id/fiar_52"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_43"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_55"
+            app:layout_constraintStart_toEndOf="@+id/fiar_53"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_44"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_55"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_56"
+            app:layout_constraintStart_toEndOf="@+id/fiar_54"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_45"
+            app:srcCompat="@null" />
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fiar_56"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_55"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_46"
+            app:srcCompat="@null" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/fiar_row_0"
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/fiar_row_1"
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/fiar_row_2"
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/fiar_row_3"
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/fiar_row_4"
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/fiar_row_5"
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/fiar_row_6"
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:background="@color/darkBackground"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2">
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

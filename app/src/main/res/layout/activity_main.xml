@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <markus.wieland.fourinarow.FourInARowGameBoardView
+        android:id="@+id/four_in_a_row_game_board"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_for_game_board="@layout/layout_game_board">
+
+    </markus.wieland.fourinarow.FourInARowGameBoardView>
+
+    <markus.wieland.fourinarow.FourInARowStartScreen
+        android:id="@+id/four_in_a_row_start_screen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_background="@layout/layout_four_in_a_row_start_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </markus.wieland.fourinarow.FourInARowStartScreen>
+
+    <markus.wieland.fourinarow.FourInARowEndScreen
+        android:id="@+id/four_in_a_row_end_screen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_background="@layout/layout_four_in_a_row_end_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </markus.wieland.fourinarow.FourInARowEndScreen>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

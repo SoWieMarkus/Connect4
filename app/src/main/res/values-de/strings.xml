@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">\"4 wins\" - GranaDy</string>
+    <string name="fiar_player_1">GranaDy</string>
+    <string name="fiar_player_2">Spieler 2</string>
+    <string name="fiar_multiplayer">Mehrspieler</string>
+    <string name="fiar_singleplayer">Einzelspieler</string>
+    <string name="fiar_or">Oder</string>
+    <string name="fiar_draw">Unentschieden</string>
+    <string name="fiar_wins">gewinnt!</string>
+    <string name="fiar_back">Hauptmenü</string>
+    <string name="liar_again">Erneut spielen</string>
+</resources>
