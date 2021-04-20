@@ -7,6 +7,10 @@ Connect 4 game which uses my <a href="https://github.com/SoWieMarkus/Games">Andr
 
 * The user can play against a friend or a computer.
 
+<iframe
+  src="https://appetize.io/embed/equvkm70j9g3g9dy2621ybe1jg?device=iphone8"
+  width="378px" height="800px" frameborder="0" scrolling="no"></iframe>
+
 ## Screenshots
 
 <img src="https://github.com/SoWieMarkus/Connect4/blob/master/screenshots/english/Screenshot_20210420-122841_Connect%204.jpg" width="50%"><img src="https://github.com/SoWieMarkus/Connect4/blob/master/screenshots/english/Screenshot_20210420-122858_Connect%204.jpg" width="50%"><img src="https://github.com/SoWieMarkus/Connect4/blob/master/screenshots/english/Screenshot_20210420-122919_Connect%204.jpg" width="50%"><img src="https://github.com/SoWieMarkus/Connect4/blob/master/screenshots/english/Screenshot_20210420-122933_Connect%204.jpg" width="50%">
