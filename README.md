@@ -9,5 +9,6 @@ Connect 4 game which uses my <a href="https://github.com/SoWieMarkus/Games">Andr
 
 ## Screenshots
 
-<img src="https://github.com/SoWieMarkus/Sudoku/blob/main/screenshots/english/Screenshot_20210409-225115_Sudoku.jpg" width="25%"><img src="https://github.com/SoWieMarkus/Sudoku/blob/main/screenshots/english/Screenshot_20210409-225127_Sudoku.jpg" width="25%"><img src="https://github.com/SoWieMarkus/Sudoku/blob/main/screenshots/english/Screenshot_20210409-225140_Sudoku.jpg" width="25%"><img src="https://github.com/SoWieMarkus/Sudoku/blob/main/screenshots/english/Screenshot_20210409-225148_Sudoku.jpg" width="25%">
+<img src="https://github.com/SoWieMarkus/Connect4/blob/master/screenshots/english/Screenshot_20210420-122841_Connect%204.jpg" width="50%"><img src="https://github.com/SoWieMarkus/Connect4/blob/master/screenshots/english/Screenshot_20210420-122858_Connect%204.jpg" width="50%"><img src="https://github.com/SoWieMarkus/Connect4/blob/master/screenshots/english/Screenshot_20210420-122919_Connect%204.jpg" width="50%"><img src="https://github.com/SoWieMarkus/Connect4/blob/master/screenshots/english/Screenshot_20210420-122933_Connect%204.jpg" width="50%">
+
 
