@@ -7,7 +7,7 @@ Connect 4 game which uses my <a href="https://github.com/SoWieMarkus/Games">Andr
 
 * The user can play against a friend or a computer.
 
-<iframe src="https://appetize.io/embed/equvkm70j9g3g9dy2621ybe1jg" width="378px" height="800px" frameborder="0" scrolling="no"></iframe>
+Play it on <a href="https://appetize.io/embed/equvkm70j9g3g9dy2621ybe1jg">appetize.io</a>
 
 ## Screenshots
 
